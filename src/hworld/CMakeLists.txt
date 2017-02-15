@@ -130,6 +130,7 @@ include_directories(
 ## Declare a C++ executable
 add_executable(hworld_node src/helloworld.cpp)
 add_executable(search_node src/search.cpp)
+add_executable(count_node src/count.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -142,6 +143,10 @@ target_link_libraries(hworld_node
 target_link_libraries(search_node 
    ${catkin_LIBRARIES}
  )
+target_link_libraries(count_node 
+   ${catkin_LIBRARIES}
+ )
+
 
 #############
 ## Install ##

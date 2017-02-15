@@ -31,7 +31,7 @@ void Spiral( int x, int y){
 	int X = 15; int Y = 15;
 	int t = std::max(X,Y);
 	int maxI = t*t;
-	float incre = 0.0001 ;
+	float incre = 0.00001 ;
 	float a = 1.0;
 
 	for(int i =0; i <10 ; i++){
